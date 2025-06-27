@@ -102,13 +102,49 @@
       </p>
     </div>
     <div>
-      <h2>Para contactarnos</h2>
+      
       <p>Tambien podes dejarnos tus datos aca abajo con la info que necesitas y la disponibilidad que tengas para agendar un turno</p>
-      <form action=""><input type="text"></form>
+      <form action=""><label for="Nombre">Nombre</label>
+       <input type="text" id="Nombre" required>
+      <label for="Nombre">Apellido</label>
+       <input type="text" id="Apellido" required>
+      <label for="Nombre">Correo</label>
+       <input type="text" id="Correo" required>
+      <label for="Nombre">Telefono</label>
+       <input type="text" id="Telefono" required>
+      <h2>Que servicio necesitas?</h2>
+      <label for="ServicioDes">Capping</label>
+        <input type="radio" name="Serv" value="Capping">
+        <label for="ServicioDes">SoftGel</label>
+        <input type="radio" name="Serv" value="SoftGel">
+        <label for="ServicioDes">Esculpidas</label>
+        <input type="radio" name="Serv" value="Esculpidas">
+        <label for="ServicioDes">Semi Permanentes</label>
+        <input type="radio" name="Serv" value="Semi Permanentes">
+        <label for="ServicioDes">Belleza de Manos</label>
+        <input type="radio" name="Serv" value="Belleza de Manos">
+      <h2>Selecciona el dia en el que puedas asistir</h2>
+      <label for="Dia">Lunes</label>
+      <input type="checkbox">
+      <label for="Dia">Martes</label>
+      <input type="checkbox">
+      <label for="Dia">Miercoles</label>
+      <input type="checkbox">
+      <label for="Dia">Jueves</label>
+      <input type="checkbox">
+      <label for="Dia">Viernes</label>
+      <input type="checkbox">
+      <label for="Dia">Sabado</label>
+      <input type="checkbox">
+      <label for="Dia">Domingo</label>
+      <input type="checkbox">
+      
+      <button type="submit" >Enviar</button>
+      </form>
     </div>
 
   </section>
-  <footer>
+  <footer class="Footer">
     <p>Todos los derechos reservados a mi. Aguante el Rojo</p>
   </footer>
 </body>
