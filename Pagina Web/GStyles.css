@@ -1,0 +1,170 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.Titulos{
+    display: inline-block;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 48px;
+}
+.Parrafos{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+
+/* Estilos Nav Bar */
+.NBar{
+    position: fixed;
+    z-index: 1;
+}
+.NavBar{
+    display: flex;
+    align-items: center;
+    background-color: #DAC2FE;
+    justify-content: space-between;
+    
+}
+.Logo{
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 5px;
+
+}
+.BarraNav ul {
+   list-style-type:none;
+   display: flex;
+   gap: 20px;
+   margin:0 ;   
+   padding: 40px;
+}
+
+
+/* Seccion Sobre MI */
+.SobreMi {
+    display: flex;
+    width: 100%;         
+    height: 33%;
+}
+.SMI {
+    flex: 1;
+    gap: 10px;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    text-align: center;
+}
+.TituloSinergia {
+    flex: 1;
+   overflow: hidden;
+   display: flex;
+  }
+.Sinergia{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Nuestros Servicios*/
+.NuesServ{
+    display: block;
+    width: 100%;       
+    height: 33%;
+    align-items: center;
+    justify-content: space-between;
+}
+.NSinfo{
+    width: 100%;
+}
+.InfoGen{
+    background-color: #DAC2FE;
+    text-align: center;
+    align-items: baseline;
+    display: grid;
+   width: 100%;
+}
+.BarraServ{
+    width: 100%;
+}
+.BarraServ ul {
+    display: flex;
+    flex-wrap: wrap; /* muy importante para que no se desborde */
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+  }
+  
+  .BarraServ li {
+    list-style: none;
+    flex-shrink: 0;   /* para que no se achiquen */
+  }
+  
+  .BarraServ li a {
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #DAC2FE;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+.Serv{
+    width: 100%;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2,1fr);
+   
+    justify-content: center;
+}
+
+.ServEsp{
+    display: grid;
+    width: auto;
+    padding: 5%;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid purple;
+    border-radius: 20px;
+    background-color: #DAC2FE;
+   
+}
+.ImagenesMuestra{
+    object-fit: cover;
+    width: 100%;
+    height:auto;
+}
+.boton{
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+    width: 25%;
+}
+
+/* Contacto */
+.Contacto{
+    width: 100%;
+   justify-content: flex;
+}
+.ImagenRRSS{
+    width: 16px;
+    height: 16px;
+
+
+}
